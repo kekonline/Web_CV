@@ -101,3 +101,238 @@ h2 {
 
   /* align-items: flex-start; */
 }
+
+.expSection aside,
+.proSection aside {
+  width: 200px;
+}
+.expContent {
+  width: 500px;
+}
+
+.proSection li {
+  width: 430px;
+}
+
+.experience h1 {
+  font-size: 2.5rem;
+}
+
+.experience h2 {
+  margin: 20px;
+}
+
+.experience h3,
+.projects h3,
+.eduSection h3 {
+  margin: 0 0 10px 20px;
+}
+
+.experience h4 {
+  margin: 0 0 0px 20px;
+}
+
+.experience p {
+  margin: 5px 0 20px 20px;
+}
+
+aside p {
+  margin: 0px;
+  text-align: right;
+  color: #8fbcff;
+}
+aside {
+  margin: 0px 20px 0 0;
+ 
+}
+
+.dates {
+  margin-top: 2px;
+}
+
+.eduSection p {
+  margin: 1px 20px 0px 0px;
+  color: #8fbcff;
+}
+
+.summary h2,
+.experience h2,
+.projects h2,
+.education h2 {
+  text-decoration: underline;
+  color: #8fbcff;
+}
+
+.spacePanel {
+  height: 1px;
+}
+
+/* SIDE PANEL */
+
+.sidePanel {
+  width: 300px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(6, 0, 63, 0.4);
+  border-radius: 40px;
+transition: 1s;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+i {
+  color: white;
+  padding: 0px 20px;
+}
+.contact div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.contact p,
+.contact a {
+  margin: 18px;
+}
+
+a {
+  color: white;
+}
+
+.fa {
+  padding: 0 23px;
+}
+
+.scoreBack {
+  height: 20px;
+  width: 243px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 0px 10px;
+  margin: 0px 0px 20px 19px;
+  border-radius: 5px;
+  position: absolute;
+}
+
+.skills h3 {
+  padding: 0px 20px;
+  margin: 0px 0px 5px 0px;
+}
+
+.scoreFront {
+  height: 20px;
+  width: 210px;
+  background: linear-gradient(to top, #3c69ad, #8fbcff);
+
+  padding: 0px 10px;
+  margin: 0px 0px 20px 19px;
+  border-radius: 5px;
+  position: relative;
+  transition: 0.5s;
+}
+
+.med {
+  width: 120px;
+}
+
+.ball {
+  height: 25px;
+  width: 25px;
+  background: linear-gradient(to top, #3c69ad, #8fbcff);
+  border-radius: 30px;
+  transition: 0.5s;
+}
+.ballCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  width: 200px;
+  /* padding: 20px 20px 0px 0px ; */
+  /* padding: 0px 00px 0px 0px ; */
+}
+
+.langCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  height: 40px;
+}
+
+.langCont h3 {
+  padding: 0px 0px 0px 20px;
+
+  margin: 0px;
+}
+
+.off {
+  background: linear-gradient(to top, #7e8085, #fbfdff);
+}
+
+.hobbies h3 {
+  margin: 0px 20px 20px 20px;
+}
+.request h3 {
+  margin: 20px;
+}
+
+
+.hobbies{
+
+height: 370px;
+
+}
+
+.sidePanel h2 {
+    text-decoration: underline;
+   
+  }
+
+
+
+
+   .panel:hover, .sidePanel:hover{
+    backdrop-filter: blur(40px);
+background-color: rgba(0, 0, 0, 0.801);;
+
+
+  }
+
+
+
+  .title:hover{
+    backdrop-filter: blur(40px);
+
+
+
+  }
+
+
+
+
+  .sidePanel:hover{
+    backdrop-filter: blur(40px);
+    background-color: rgba(6, 0, 63, 0.65);
+
+
+  }
+
+
+  .ball:hover{
+
+    height: 35px;
+    width: 35px;
+
+
+  }
+
+
+  .scoreFront:hover {
+ 
+    background: linear-gradient(to top, #084aad, #4791ff);
+
+  }
+
+
+
